@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledTh = styled.th`
-  background: #0B1414;
+  background: #110C0D;
   padding: 8px;
   font-size: 12px;
   color: #8f80ba;
