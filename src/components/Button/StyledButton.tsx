@@ -11,7 +11,7 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedButtonProps) => {
   if (isLoading === true) {
     return `
       &:disabled,
-      &.ogeefinance-button--disabled {
+      &.cnftfinance-button--disabled {
         cursor: not-allowed;
       }
     `;
@@ -19,7 +19,7 @@ const getDisabledStyles = ({ isLoading, theme }: ThemedButtonProps) => {
 
   return `
     &:disabled,
-    &.ogeefinance-button--disabled {
+    &.cnftfinance-button--disabled {
       background-color: ${theme.colors.backgroundDisabled};
       border-color: ${theme.colors.backgroundDisabled};
       box-shadow: none;
@@ -59,11 +59,11 @@ const StyledButton = styled.button<BaseButtonProps>`
   outline: 0;
   transition: background-color 0.2s;
 
-  &:hover:not(:disabled):not(.ogeefinance-button--disabled):not(.ogeefinance-button--disabled):not(:active) {
+  &:hover:not(:disabled):not(.cnftfinance-button--disabled):not(.cnftfinance-button--disabled):not(:active) {
     opacity: 0.65;
   }
 
-  &:active:not(:disabled):not(.ogeefinance-button--disabled):not(.ogeefinance-button--disabled) {
+  &:active:not(:disabled):not(.cnftfinance-button--disabled):not(.cnftfinance-button--disabled) {
     opacity: 0.85;
   }
 

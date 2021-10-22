@@ -77,13 +77,13 @@ export const AsLinks: React.FC = () => {
   return (
     <Row>
       <ButtonMenu activeIndex={0}>
-        <ButtonMenuItem as="a" href="https://ogee.finance">
+        <ButtonMenuItem as="a" href="https://cnft.cheeseswap.app">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://ogee.finance">
+        <ButtonMenuItem as="a" href="https://cnft.cheeseswap.app">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://ogee.finance">
+        <ButtonMenuItem as="a" href="https://cnft.cheeseswap.app">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>

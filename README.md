@@ -1,2 +1,2 @@
 # uikit
-OgeeFinance UI development toolset.
+CnftFinance UI development toolset.

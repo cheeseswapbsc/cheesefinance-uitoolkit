@@ -56,7 +56,7 @@ export type Colors = {
   gradients: Gradients;
 
   // Brand colors
-  huobi: string;
+  bsc: string;
 };
 
 export type ZIndices = {

@@ -48,7 +48,7 @@ const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-grow: 1;
   margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
   transition: margin-top 0.2s;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(1, 1.2, 1.4);
   max-width: 100%;
 
   ${({ theme }) => theme.mediaQueries.nav} {
@@ -79,7 +79,7 @@ const Menu: React.FC<NavProps> = ({
   langs,
   setLang,
   currentLang,
-  oytPriceUsd,
+  cnftPriceUsd,
   links,
   profile,
   children,
@@ -149,7 +149,7 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
-          oytPriceUsd={oytPriceUsd}
+          cnftPriceUsd={cnftPriceUsd}
           pushNav={setIsPushed}
           links={links}
         />

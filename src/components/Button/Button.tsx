@@ -21,11 +21,11 @@ const Button = <E extends ElementType = "button">(
   const classNames = className ? [className] : [];
 
   if (isLoading) {
-    classNames.push("ogeefinance-button--loading");
+    classNames.push("cnftfinance-button--loading");
   }
 
   if (isDisabled && !isLoading) {
-    classNames.push("ogeefinance-button--disabled");
+    classNames.push("cnftfinance-button--disabled");
   }
 
   return (

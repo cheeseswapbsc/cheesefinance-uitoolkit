@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://ogee.exchange",
+        href: "https://cheeseswap.app",
       },
       {
         label: "Liquidity",
-        href: "https://ogee.exchange/#/pool",
+        href: "https://cheeseswap.app/#/pool",
       },
     ],
   },
@@ -59,19 +59,19 @@ export const links = [
     items: [
       {
         label: "Overview",
-        href: "https://info.ogee.exchange",
+        href: "https://info.cheeseswap.app",
       },
       {
         label: "Tokens",
-        href: "https://info.ogee.exchange/tokens",
+        href: "https://info.cheeseswap.app/#/tokens",
       },
       {
         label: "Pairs",
-        href: "https://info.ogee.exchange/pairs",
+        href: "https://info.cheeseswap.app/#/pairs",
       },
       {
         label: "Accounts",
-        href: "https://info.ogee.exchange/accounts",
+        href: "https://info.cheeseswap.app/#/accounts",
       },
     ],
   },
@@ -105,19 +105,19 @@ export const links = [
     items: [
       {
         label: "Voting",
-        href: "https://voting.ogee.finance",
+        href: "https://voting.cheeseswap.app",
       },
       {
         label: "Github",
-        href: "https://github.com/ogeefinance",
+        href: "https://github.com/cheeseswapbsc",
       },
       {
         label: "Docs",
-        href: "https://docs.ogee.finance",
+        href: "https://docs.cheesemaker.farm",
       },
       {
         label: "Blog",
-        href: "https://ogeeswap.medium.com",
+        href: "https://cheeseswapbsc.medium.com",
       },
     ],
   },
@@ -127,7 +127,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/ogee_finance",
+    href: "https://twitter.com/cheesemakerbsc",
   },
   {
     label: "Telegram",
@@ -135,18 +135,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/ogeefinance",
+        href: "https://t.me/cheesemakerfarm",
       },
       {
         label: "Announcements",
-        href: "https://t.me/ogeefinanceann",
+        href: "https://t.me/cheesemakernews",
       },
     ],
   },
   {
     label: "Github",
     icon: "GithubIcon",
-    href: "https://github.com/ogeefinance",
+    href: "https://github.com/cheeseswapbsc",
   },
   {
     label: "CoinMarketCap",
@@ -161,14 +161,14 @@ export const socials = [
   {
     label: "Audit",
     icon: "AuditIcon",
-    href: "https://www.certik.org/projects/ogee",
+    href: "https://www.certik.org/projects/cheeseswap",
   },
 ];
 
 export const networks = [
   {
-    label: "HECO",
-    icon: "HecoIcon",
+    label: "BSC",
+    icon: "BscIcon",
     items: [
       {
         label: "BSC",

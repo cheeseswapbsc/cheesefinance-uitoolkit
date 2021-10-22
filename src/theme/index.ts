@@ -15,7 +15,7 @@ import {
   ZIndices,
 } from "./types";
 
-export interface OgeeTheme {
+export interface CnftTheme {
   siteWidth: number;
   isDark: boolean;
   alert: AlertTheme;

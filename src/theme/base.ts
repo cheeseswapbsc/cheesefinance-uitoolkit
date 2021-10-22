@@ -23,12 +23,12 @@ const mediaQueries: MediaQueries = {
 
 export const shadows = {
   level1:
-    "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
-  active: "0px 0px 0px 2px #6565F1, 0px 0px 4px 8px rgba(93, 93, 239, 0.3)",
-  success: "0px 0px 0px 2px #29DCA2, 0px 0px 2px 4px rgba(41, 220, 162, 0.2)",
-  warning: "0px 0px 0px 2px #F33F67, 0px 0px 2px 4px rgba(243, 63, 103, 0.2)",
-  focus: "0px 0px 0px 2px #2687DA, 0px 0px 2px 4px rgba(39, 135, 218, 0.6)",
-  inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
+    "0px 2px 12px -8px #DF922B, 0px 1px 1px rgba(25, 19, 38, 0.05)",
+  active: "0px 0px 0px 2px #DF922B, 0px 0px 4px 8px rgba(93, 93, 239, 0.3)",
+  success: "0px 0px 0px 2px #DF922B, 0px 0px 2px 4px rgba(41, 220, 162, 0.2)",
+  warning: "0px 0px 0px 2px #DF922B, 0px 0px 2px 4px #DF922B",
+  focus: "0px 0px 0px 2px #DF922B, 0px 0px 2px 4px rgba(39, 135, 218, 0.6)",
+  inset: "inset 0px 2px 2px -1px #DF922B",
 };
 
 const spacing: Spacing = [0, 4, 8, 16, 24, 32, 48, 64];

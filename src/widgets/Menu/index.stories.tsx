@@ -31,7 +31,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    oytPriceUsd: 0.023158668932877668,
+    cnftPriceUsd: 0.023158668932877668,
     links,
     profile: null,
   });
@@ -47,7 +47,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        oytPriceUsd: 0.023158668932877668,
+        cnftPriceUsd: 0.023158668932877668,
         links,
         profile: null,
       });
@@ -142,7 +142,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        oytPriceUsd={0.23158668932877668}
+        cnftPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -190,11 +190,11 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        oytPriceUsd={0.23158668932877668}
+        cnftPriceUsd={0.23158668932877668}
         links={links}
         profile={{
-          username: "ogee",
-          image: "https://ogee.finance/images/nfts/blueberries-preview.png",
+          username: "cnft",
+          image: "https://cnft.cheeseswap.app/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}
@@ -254,11 +254,11 @@ export const WithSubmenuSelected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        oytPriceUsd={0.23158668932877668}
+        cnftPriceUsd={0.23158668932877668}
         links={links}
         profile={{
-          username: "ogee",
-          image: "https://ogeeswap.com/images/nfts/blueberries-preview.png",
+          username: "cnft",
+          image: "https://cnftswap.com/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}

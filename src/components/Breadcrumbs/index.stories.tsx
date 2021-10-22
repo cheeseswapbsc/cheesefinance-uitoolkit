@@ -22,8 +22,8 @@ export const Default: React.FC = () => {
         <Text color="textDisabled">Crumb 2</Text>
       </BreadCrumbs>
       <BreadCrumbs>
-        <Text>Ogee Finance</Text>
-        <Text>The #1 AMM and yield farm on Huobi ECO Chain.</Text>
+        <Text>Cheese Finance</Text>
+        <Text>The #1 DeFi and yield farm on Binance Smart Chain.</Text>
       </BreadCrumbs>
     </Text>
   );

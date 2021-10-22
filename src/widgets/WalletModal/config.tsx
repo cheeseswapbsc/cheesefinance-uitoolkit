@@ -1,5 +1,5 @@
 import Metamask from "./icons/Metamask";
-import HuobiWallet from "./icons/HuobiWallet";
+import BscWallet from "./icons/BscWallet";
 import MathWallet from "./icons/MathWallet";
 import TokenPocket from "./icons/TokenPocket";
 import WalletConnect from "./icons/WalletConnect";
@@ -13,8 +13,8 @@ const connectors: Config[] = [
     connectorId: ConnectorNames.Injected,
   },
   {
-    title: "HuobiWallet",
-    icon: HuobiWallet,
+    title: "BscWallet",
+    icon: BscWallet,
     connectorId: ConnectorNames.Injected,
   },
   {
